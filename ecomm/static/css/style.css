@@ -1,0 +1,26 @@
+*body{
+    background-color: aqua;
+}
+
+.navlogo{
+    height: 30px;
+    width: 30px;
+}
+
+.logo_search{
+display: flex;
+justify-content: space-around;
+background-color: bisque;
+}
+
+.naviteam{
+    background-color: white;
+    text-align: center
+}
+
+.naviteam a{
+margin: 12px;
+text-decoration: none;
+color: black;
+font-weight: 600;
+}
