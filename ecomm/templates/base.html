@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     {% block title %}
+    <title> Brajesh Rajput</title>
+    {% endblock title %}
+   
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animation.css' %}">
+
+</head>
+<body>
+    <h1>this is my nave</h1>
+    
+    {% block content %}
+        <h1>this is my base page</h1>
+    {% endblock %}
+        <h1>htisi is  my foote</h1>
+   
+
+    <script src="{% static 'js/myscript.js' %}"></script>
+    <script src="{% static 'js/animation.js' %}"></script>
+
+ 
+
+</body>
+</html>
