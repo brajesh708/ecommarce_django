@@ -10,6 +10,7 @@
    
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/animation.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 <body>
@@ -18,6 +19,7 @@
         Shopsy
         </div>
         <div> <input type="text" placeholder="search" class="search"></div>
+        <div><i class="fa-solid fa-cart-plus"></i></div>
         
     </div>
     <nav>
@@ -33,7 +35,17 @@
     {% block content %}
         <h1>this is my base page</h1>
     {% endblock %}
-        <h1>htisi is  my foote</h1>
+
+<footer class="footer">
+    <div class="footer">
+        <div class="footerlogo"><img src="{% static 'image/logo.png' %}"  alt="logo" > </div>
+            <div>this is shopping sait wew site and it is create by brajesh mewada and it is dizin by  me
+            </div>
+        <div></div>
+        <div>links <a href="">Home</a><a href="">About</a><a href="">Contect</a><a href="">blog</a></div>
+        <div></div>
+    </div>
+</footer>
    
 
     <script src="{% static 'js/myscript.js' %}"></script>

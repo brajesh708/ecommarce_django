@@ -1,6 +1,7 @@
 *body{
     background-color: aqua;
 }
+/*  this is my nav part start */
 
 .navlogo{
     height: 30px;
@@ -23,4 +24,10 @@ margin: 12px;
 text-decoration: none;
 color: black;
 font-weight: 600;
+}
+
+/*  this is my footer part start */
+
+.footer{
+    background-color: rgb(43, 37, 37);
 }
