@@ -31,3 +31,9 @@ font-weight: 600;
 .footer{
     background-color: rgb(43, 37, 37);
 }
+
+.footerlogo img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
